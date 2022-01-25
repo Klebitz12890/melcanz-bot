@@ -16,7 +16,7 @@
 * Unduh & Instal ImageMagick [`Klik Disini`](https://imagemagick.org/script/download.php)
 
 ```bash
-git clone https://github.com/melcanz/melcanz-bot.git
+git clone https://github.com/Klebitz12890/melcanz-bot.git
 cd melcanz-bot
 npm i
 node .
@@ -31,7 +31,7 @@ $ apt update && upgrade -y
 $ pkg install ffmpeg
 $ pkg install nodejs-lts
 $ pkg install git
-$ git clone https://github.com/melcanz/melcanz-bot.git
+$ git clone https://github.com/Klebitz12890/melcanz-bot.git
 $ cd melcanz-bot
 $ npm i
 $ node .
