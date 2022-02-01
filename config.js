@@ -12,6 +12,7 @@ global.APIs = { // API Prefix
   pencarikode: 'https://pencarikode.xyz',
   LeysCoder: 'https://leyscoders-api.herokuapp.com'
   amel: 'https://melcanz.com',
+  bg: 'http://bochil.ddns.net',
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
@@ -21,6 +22,7 @@ global.APIKeys = { // APIKey Here
   'https://pencarikode.xyz': 'pais',
   'https://leyscoders-api.herokuapp.com': 'dappakntlll'
   'https://melcanz.com': 'Subscribe MelcanzYT'
+  'https://bochil.ddns.net': 'Bochil Gaming'
 }
 
 global.packname = 'Klebitz'
