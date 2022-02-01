@@ -64,7 +64,7 @@ global.loadDatabase = async function loadDatabase() {
 loadDatabase()
 
 global.conn = new WAConnection()
-conn.browserDescription = ['Melcanz-bot', 'Chrome', '3.0']
+conn.browserDescription = ['Klebitz-BOT', 'Chrome', '3.0']
 let authFile = opts['session'] ? opts['session'] + '.json' : `session.data.json`
 if (fs.existsSync(authFile)) conn.loadAuthInfo(authFile)
 if (opts['trace']) conn.logger.level = 'trace'
@@ -144,10 +144,10 @@ global.reloadHandler = function () {
     conn.off('group-update', conn.onGroupUpdate)
     conn.off('CB:action,,call', conn.onCall)
   }
-  conn.welcome = 'hai, @user!\nselamat datang digrup @subject\n\n@desc'
-  conn.bye = 'sampai jumpa @user!'
-  conn.spromote = '@user sekarang admin'
-  conn.sdemote = '@user sekarang bukan admin'
+  conn.welcome = 'hai, @user!\nWelcome To @subject\n\n@desc'
+  conn.bye = 'Good Bye 👋 @user!'
+  conn.spromote = '@user Is Now An Admin'
+  conn.sdemote = '@user Is No Longer An Admin'
   conn.handler = handler.handler
   conn.onDelete = handler.delete
   conn.onParticipantsUpdate = handler.participantsUpdate
@@ -254,7 +254,7 @@ async function _quickTest() {
   require('./lib/sticker').support = s
   Object.freeze(global.support)
 
-  if (!s.ffmpeg) conn.logger.warn('silakan instal ffmpeg untuk mengirim video (pkg install ffmpeg)')
+  if (!s.ffmpeg) conn.logger.warn('Please Install ffmpeg To Send A Video (pkg install ffmpeg)')
   if (s.ffmpeg && !s.ffmpegWebp) conn.logger.warn('stiker tidak boleh dianimasikan tanpa libwebp di ffmpeg (--enable-ibwebp while compiling ffmpeg)')
   if (!s.convert && !s.magick && !s.gm) conn.logger.warn('stiker mungkin tidak berfungsi tanpa imagemagick jika libwebp di ffmpeg tidak diinstal (pkg install imagemagick)')
 }
