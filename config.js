@@ -3,10 +3,23 @@ let chalk = require('chalk')
 
 global.owner = ['6282260691984', '6281211006838', '6282124128334']
 
-global.APIs = {
+global.APIs = { // API Prefix
+  // name: 'https://website'
+  nrtm: 'https://nurutomo.herokuapp.com',
+  xteam: 'https://api.xteam.xyz',
+  zahir: 'https://zahirr-web.herokuapp.com',
+  zeks: 'https://zeks.me',
+  pencarikode: 'https://pencarikode.xyz',
+  LeysCoder: 'https://leyscoders-api.herokuapp.com'
   amel: 'https://melcanz.com',
 }
-global.APIKeys = {
+global.APIKeys = { // APIKey Here
+  // 'https://website': 'apikey'
+  'https://api.xteam.xyz': 'd90a9e986e18778b',
+  'https://zahirr-web.herokuapp.com': 'zahirgans',
+  'https://zeks.me': 'apivinz',
+  'https://pencarikode.xyz': 'pais',
+  'https://leyscoders-api.herokuapp.com': 'dappakntlll'
   'https://melcanz.com': 'Subscribe MelcanzYT'
 }
 
