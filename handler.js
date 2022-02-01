@@ -229,7 +229,7 @@ module.exports = {
           private: false,
           restrict: false,
           self: false,
-          tosw: '6283128734012@s.whatsapp.net',
+          tosw: '6281211006838@s.whatsapp.net',
           playlist: ['37i9dQZEVXbObFQZ3JLcXt', '37i9dQZF1DXa2EiKmMLhFD'],
         }
       } catch (e) {
